@@ -1,0 +1,11 @@
+.team-members-section {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--padding-base);
+    width: 362px;
+    height: 502px;
+}

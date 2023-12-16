@@ -1,0 +1,97 @@
+ .top-content {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+ }
+
+ .header2 {
+     width: 640px;
+     height: 80px;
+     justify-content: space-between;
+     padding: var(--padding-5xl);
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+
+ .user-content {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap: var(--gap-base);
+ }
+
+ .user-content-child {
+     position: relative;
+     border-radius: 10px;
+     width: 40px;
+     height: 40px;
+     overflow: hidden;
+     flex-shrink: 0;
+     object-fit: cover;
+ }
+
+ .user1 {
+     position: relative;
+     line-height: 125%;
+     font-weight: 600;
+ }
+
+ .ellipse-parent {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+     gap: var(--gap-5xs);
+     font-size: var(--font-size-xs);
+ }
+ .frame-child {
+     position: relative;
+     border-radius: 50%;
+     background-color: var(--green-green400);
+     width: 10px;
+     height: 10px;
+ }
+
+ .online {
+     position: relative;
+     line-height: 150%;
+     font-weight: 600;
+     opacity: 0.6;
+ }
+ .call-button{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     border-radius: 8px;
+     background-color: var(--primary-10);
+     justify-content: flex-start;
+     padding: var(--padding-3xs) var(--padding-base);
+     gap: var(--gap-5xs);
+     font-size: var(--font-size-base);
+     color: var(--primary);
+     font-family: var(--font-font-awesome-6-pro);
+ }
+ .call-button:hover{
+    background-color: blue;
+ }
+ .call,
+ .phone {
+     position: relative;
+ }
+
+ .call {
+     line-height: 125%;
+     font-weight: 600;
+     font-family: var(--h3);
+ }
+ .divider {
+     position: relative;
+     background-color: var(--black);
+     width: 640px;
+     height: 1px;
+     opacity: 0.08;
+ }

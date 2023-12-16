@@ -1,0 +1,9 @@
+.header3 {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    width: 362;
+    height: 80px;
+}

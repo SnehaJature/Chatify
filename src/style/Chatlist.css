@@ -1,0 +1,191 @@
+.chatList-parent {
+    height: 740px;
+    width: 349px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-start;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-font-awesome-6-pro);
+    /* overflow-y: scroll; */
+}
+
+.global-list-inner {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-xs) var(--padding-5xl);
+}
+
+.search-parent {
+    border-radius: var(--br-xs);
+    background-color: var(--color-whitesmoke-100);
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-3xs) var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    position: sticky;
+}
+
+.search-messages {
+    position: relative;
+    line-height: 150%;
+    font-family: var(--h3);
+    opacity: 0.4;
+    border: none;
+    width: 300px;
+    background-color: var(--color-whitesmoke-100);
+    outline: none;
+}
+
+.message-list1 {
+    align-items: flex-start;
+    gap: var(--gap-5xs);
+    align-self: stretch;
+    padding: 0 var(--padding-base);
+    font-family: var(--h3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* cursor: pointer;
+    overflow-y: auto;
+    max-height: 830px; */
+
+}
+
+
+.message-listData {
+    align-items: flex-start;
+    gap: var(--gap-5xs);
+    align-self: stretch;
+    padding: 0 var(--padding-base);
+    font-family: var(--h3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    cursor: pointer;
+    overflow-y: auto;
+    max-height: 830px;
+}
+
+.message-component {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-xs);
+    gap: var(--gap-base);
+
+}
+
+.message-component:hover {
+    border-radius: var(--br-xs);
+    background-color: var(--color-whitesmoke-100);
+}
+
+.frame-parent3 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xs);
+}
+
+.header {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.full-name-here-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+
+.full-name-here {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+    flex: 1;
+}
+
+.m6 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+    opacity: 0.3;
+}
+
+.job {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xs);
+    line-height: 150%;
+    font-weight: 600;
+    color: var(--color-gray-200);
+}
+
+.active {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    background-color: var(--color-mediumslateblue-100);
+    overflow: hidden;
+    padding: var(--padding-xs);
+    gap: var(--gap-base);
+    font-family: var(--font-metal-mania);
+}
+
+.full-name-here .active {
+    flex: 1;
+    position: relative;
+    line-height: 150%;
+}
+
+
+.m6 .active {
+    opacity: 0.3;
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: var(--h3);
+}
+
+.job .active {
+
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: var(--h3);
+    opacity: 0.3;
+    align-self: stretch;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-200);
+}
+
+
+.job .message-component .active:hover{
+    background-color: var(--color-mediumslateblue-100);
+}
