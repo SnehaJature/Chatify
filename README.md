@@ -14,3 +14,5 @@ Message History: The application stores message history, allowing users to revie
 React: Frontend library for building the user interface.
 Node.js: Backend JavaScript runtime.
 Socket.io: Library for real-time web applications.
+
+#### Figma :      https://www.figma.com/file/4ZiQRgkfc0b5woyhFT13Hl/Qwerty---Chat-Application-(Community)?node-id=18%3A209&mode=dev
